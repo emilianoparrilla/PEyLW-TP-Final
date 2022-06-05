@@ -1,0 +1,136 @@
+
+<html>
+
+    <head>
+        <title>Huinganco Viajes - Viaj&aacute; por el mundo</title>
+        <link rel="stylesheet" type="text/css" href="estilos.css" />
+        <script type=text/javascript src="funciones.js">
+        
+        </script>
+    </head>
+
+    <body>
+        <div id="header">
+            <a id="aLogo" href="principal.html">
+                <h1 id="logo">Huinganco<span>Viajes</span></h1>
+            </a>
+            <h2>Viaj&aacute; por todo el mundo</h2>
+            <div id="divList">
+                <ul>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="destinos.html">Destinos</a></li>
+                    <li><a href="principal.html">Inicio</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="subheader" id="subPrincipal">
+            <h1>Disfrut&aacute; de las aventuras que te brinda la naturaleza</h1>
+            <a href="#"><input type="button" id="botDescubrir" value="Conoc&eacute; lo que te ofrecemos" onmouseover="funcBoton('botDescubrir');" onmouseout="revertFuncBoton('botDescubrir');"></a>
+        </div>
+        <div id="Buscador">
+            <form method="post" action="#">
+                <select name="selOrigen">
+                    <option selected>Todos los or&iacute;genes</option>
+                    <option>Argentina</option>
+                    <option>Chile</option>
+                    <option>Brasil</option>
+                    <option>Uruguay</option>
+                    <option>Espa&ntilde;a</option>
+                    <option>Estados Unidos</option>
+                </select>
+                <select name="selDestino">
+                    <option selected>Todos los destinos</option>
+                    <option>Argentina</option>
+                    <option>Chile</option>
+                    <option>Brasil</option>
+                    <option>Uruguay</option>
+                    <option>Espa&ntilde;a</option>
+                    <option>Estados Unidos</option>
+                </select>  
+                <input type="submit" value="Buscar" id="botBuscar" onmouseover="funcBoton('botBuscar');" onmouseout="revertFuncBoton('botBuscar');">
+            </form>
+        </div>
+
+        <div class="cartel" id="cartel1">
+            <h1>Te ayudamos a crear tu pr&oacute;xima aventura</h1>
+            <h2>Somos la agencia m&aacute;s popular y con m&aacute;s paquetes de la Patagonia.</h2>
+        </div>
+        
+        <div class="bloqueEnlaces">
+            <div class="divEnlace" id="enlace1" onmouseover="modificarDiv('enlace1');" onmouseout="revertDiv('enlace1');">
+                <a class="enlace" href="#">
+                    <div class="seleccion">
+                        <img src="imagenes/coliseo.jpg">
+                        <div class="caption">
+                            <h2>Europa</h2>
+                            <p>Destinos m&aacute;s visitados en Europa</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="divEnlace" id="enlace2" onmouseover="modificarDiv('enlace2');" onmouseout="revertDiv('enlace2');">
+                <a class="enlace" href="#">
+                    <div class="seleccion">                        
+                        <img src="imagenes/eeuu.jpg">
+                        <div class="caption">
+                            <h2>Estados Unidos</h2>
+                            <p>Conoc&eacute; los lugares m&aacute;s populares de EEUU</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="divEnlace" id="enlace3" onmouseover="modificarDiv('enlace3');" onmouseout="revertDiv('enlace3');">
+                <a class="enlace" href="#">
+                    <div class="seleccion">                        
+                        <img src="imagenes/patagonia.jpg">
+                        <div class="caption">
+                            <h2>Patagonia</h2>
+                            <p>Visit&aacute; el sur de nuestro pa&iacute;s</p>
+                        </div>
+                    </div>
+                </a>
+            </div>            
+        </div>
+
+        <div class="cartel" id="cartel2">
+            <h1>Liberate de tus presiones cotidianas y explor&aacute;!</h1>
+            <h2>Tenemos los mejores asesores y la selecci&oacute;n m&aacute;s variada de paquetes.</h2>
+        </div>
+        <div class="cartel" id="cartel3">
+            <h1>Suscribite a nuestro newsletter y recib&iacute; todas nuestras novedades.</h1>
+            <form method="post" id="suscripcion">
+                <input type="email" id="correo" value="tucorreo@mail.com" size="30" onfocus="focusForm('correo');" onblur="blurForm('correo');"><br>
+                <input type="submit" id="botSuscripcion" onmouseover="funcBoton('botSuscripcion');" onmouseout="revertFuncBoton('botSuscripcion');">
+            </form>
+        </div>
+
+        <div id="footer">
+            <div id="footDescripcion">
+                <h1 id="logo">Huinganco<span>Viajes</span></h1>
+                <p id="pFooter">Descubr&iacute; los lugares m&aacute;s fascinantes y ex&oacute;ticos tanto dentro de nuestro pa&iacute;s, como en cualquier otra parte del mundo.</p>
+            </div>
+            <div id="footContacto">
+                <h2>Contacto</h2>
+                <ul id="lisContacto">
+                    <li>Cel: 2994294857</li>
+                    <li>Oficina virtual</li>
+                    <li>huinganco.viajes@ggmail.com</li>
+                </ul>
+            </div>
+            <div id="lisSocial">
+                <h2>Redes sociales</h2>
+                <ul>
+                    <li><img src="imagenes/fb-small.png" width="22" height="22"><a href="https://www.facebook.com/"> Facebook </a></li>
+                    <li><img src="imagenes/ig-small.jpg" width="20" height="20"><a href="https://www.instagram.com/"> Instagram </a></li>
+                    <li><img src="imagenes/wapp-small.png" width="20" height="20"><a href="https://web.whatsapp.com/"> Whatsapp </a></li>
+                </ul>
+            </div>
+            <div id="subfooter">
+                <p>&copy;Todos los derechos reservados. <a href="#">OFICINA VIRTUAL</a> . Desarrollado por <a href="#">Emiliano Parrilla</a></p>
+            </div>            
+        </div>
+    </body>
+
+
+</html>

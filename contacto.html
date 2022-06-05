@@ -1,0 +1,84 @@
+<html>
+
+    <head>
+        <title>Contactanos - Huinganco Viajes</title>
+        <link rel="stylesheet" type="text/css" href="estilos.css" />
+        <script type=text/javascript src="funciones.js">
+        
+        </script>
+    </head>
+
+    <body>
+        <div id="header">
+            <a id="aLogo" href="principal.html">
+                <h1 id="logo">Huinganco<span>Viajes</span></h1>
+            </a>            
+            <h2>Viaj&aacute; por todo el mundo</h2>
+            <div id="divList">
+                <ul>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="destinos.html">Destinos</a></li>
+                    <li><a href="principal.html">Inicio</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="subheader" id="subContacto">
+            <h1>Contacto</h1>
+        </div>
+
+        <div id="contacto">
+            <div class="divTxt">
+                <h1>Cont&aacute;ctanos!</h1>
+                <p>Si est&aacute;s interesado en operar con nosotros, o en alg&uacute;n destino en especial, no dudes en contactarnos, o llamarnos. Vamos a responder a la brevedad, as&iacute; que no desesperes, estaremos atentos.</p>
+            </div>
+            <div id="divForm">
+                <form>
+                    <p>Tu nombre y apellido:</p>
+                    <input type="text" id="txtNombre" size="50" value="Juan Lopez" onfocus="focusForm('txtNombre');" onblur="blurForm('txtNombre');"><br>
+                    <p>Tel&eacute;fono de contacto:</p>
+                    <input type="tel" id="telefono" size="50" value="2995555555" onfocus="focusForm('telefono');" onblur="blurForm('telefono');"><br>
+                    <p>Tu direcci&oacute;n de correo electr&oacute;nico:</p>
+                    <input type="email" id="dirCorreo" size="50" value="tucorreo@mail.com" onfocus="focusForm('dirCorreo');" onblur="blurForm('dirCorreo');"><br>
+                    <p>Estoy interesado en:</p>
+                    <input type="text" id="txtPaises" size="50" value="Europa" onfocus="focusForm('txtPaises');" onblur="blurForm('txtPaises');"><br>
+                    <p>Cantidad de personas:</p>
+                    <input type="text" id="cantPersonas" size="50" value="3 personas" onfocus="focusForm('cantPersonas');" onblur="blurForm('cantPersonas');"><br>
+                    <input type="submit" id="botSubmit" value="Enviar" onmouseover="funcBoton('botSubmit');" onmouseout="revertFuncBoton('botSubmit');">
+                    <input type="reset" id="botReset" value="Reiniciar datos" onmouseover="funcBoton('botReset');" onmouseout="revertFuncBoton('botReset');">
+                </form>
+            </div>
+        </div>
+        
+        <div id="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3103.2896488460997!2d-68.05969678503105!3d-38.940210807102964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960a33dd0484dd67%3A0x9e60fc4430f72077!2sNational%20University%20of%20Comahue!5e0!3m2!1sen!2sar!4v1653247819139!5m2!1sen!2sar" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div id="footer">
+            <div id="footDescripcion">
+                <h1 id="logo">Huinganco<span>Viajes</span></h1>
+                <p id="pFooter">Descubr&iacute; los lugares m&aacute;s fascinantes y ex&oacute;ticos tanto dentro de nuestro pa&iacute;s, como en cualquier otra parte del mundo.</p>
+            </div>
+            <div id="footContacto">
+                <h2>Contacto</h2>
+                <ul id="lisContacto">
+                    <li>Cel: 2994294857</li>
+                    <li>Oficina virtual</li>
+                    <li>huinganco.viajes@ggmail.com</li>
+                </ul>
+            </div>
+            <div id="lisSocial">
+                <h2>Redes sociales</h2>
+                <ul>
+                    <li><img src="imagenes/fb-small.png" width="22" height="22"><a href="https://www.facebook.com/"> Facebook </a></li>
+                    <li><img src="imagenes/ig-small.jpg" width="20" height="20"><a href="https://www.instagram.com/"> Instagram </a></li>
+                    <li><img src="imagenes/wapp-small.png" width="20" height="20"><a href="https://web.whatsapp.com/"> Whatsapp </a></li>
+                </ul>
+            </div>
+            <div id="subfooter">
+                <p>&copy;Todos los derechos reservados. <a href="#">OFICINA VIRTUAL</a> . Desarrollado por <a href="#">Emiliano Parrilla</a></p>
+            </div>            
+        </div>
+    </body>
+
+</html>

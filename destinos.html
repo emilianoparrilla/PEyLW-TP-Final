@@ -1,0 +1,248 @@
+<html>
+    <head>
+        <title>Destinos - Huinganco Viajes</title>
+        <link rel="stylesheet" type="text/css" href="estilos.css" />
+        <script type=text/javascript src="funciones.js">
+        
+        </script>
+    </head>
+
+    <body>
+        <div id="header">
+            <a id="aLogo" href="principal.html">
+                <h1 id="logo">Huinganco<span>Viajes</span></h1>
+            </a>            
+            <h2>Viaj&aacute; por todo el mundo</h2>
+            <div id="divList">
+                <ul>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="destinos.html">Destinos</a></li>
+                    <li><a href="principal.html">Inicio</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="subheader" id="subDestino">
+            <h1>Destinos</h1>            
+        </div>
+        <div id="Buscador">
+            <form method="post" action="#">
+                <select name="selOrigen">
+                    <option selected>Todos los or&iacute;genes</option>
+                    <option>Argentina</option>
+                    <option>Chile</option>
+                    <option>Brasil</option>
+                    <option>Uruguay</option>
+                    <option>Espa&ntilde;a</option>
+                    <option>Estados Unidos</option>
+                </select>
+                <select name="selDestino">
+                    <option selected>Todos los destinos</option>
+                    <option>Argentina</option>
+                    <option>Chile</option>
+                    <option>Brasil</option>
+                    <option>Uruguay</option>
+                    <option>Espa&ntilde;a</option>
+                    <option>Estados Unidos</option>
+                </select>  
+                <input type="submit" id="botBuscar"  value="Buscar" onmouseover="funcBoton('botBuscar');" onmouseout="revertFuncBoton('botBuscar');">
+            </form>
+        </div>
+
+        <div class="bloqueEnlaces">
+            <div class="divEnlace" id="enlace4" onmouseover="modificarDiv('enlace4');" onmouseout="revertDiv('enlace4');">
+                <a class="enlace" href="#">
+                    <div class="seleccion">                        
+                        <img src="imagenes/brasil.jpg">
+                        <div class="caption">
+                            <h2>Brasil</h2>
+                            <p>Destinos m&aacute;s visitados de Brasil</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="divEnlace" id="enlace5" onmouseover="modificarDiv('enlace5');" onmouseout="revertDiv('enlace5');">
+                <a class="enlace" href="#">
+                    <div class="seleccion">                        
+                        <img src="imagenes/peru.jpg">
+                        <div class="caption">
+                            <h2>Per&uacute;</h2>
+                            <p>Excursiones en Per&uacute;</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="divEnlace" id="enlace6" onmouseover="modificarDiv('enlace6');" onmouseout="revertDiv('enlace6');">
+                <a class="enlace" href="#">
+                    <div class="seleccion">                        
+                        <img src="imagenes/uruguay.jpeg">
+                        <div class="caption">
+                            <h2>Uruguay</h2>
+                            <p>Visit&aacute; las mejores playas de Uruguay</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="divEnlace" id="enlace7" onmouseover="modificarDiv('enlace7');" onmouseout="revertDiv('enlace7');">
+                <a class="enlace" href="#">
+                    <div class="seleccion">                        
+                        <img src="imagenes/colombia.jpg">
+                        <div class="caption">
+                            <h2>Colombia</h2>
+                            <p>Pase&aacute; por las ciudades m&aacute;s vistosas de Colombia</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="divEnlace" id="enlace8" onmouseover="modificarDiv('enlace8');" onmouseout="revertDiv('enlace8');">
+                <a class="enlace" href="#">
+                    <div class="seleccion">                        
+                        <img src="imagenes/chile.jpg">
+                        <div class="caption">
+                            <h2>Chile</h2>
+                            <p>Viaj&aacute; por los lugares m&aacute;s vistosos del pa&iacute;s trasandino</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="divEnlace" id="enlace9" onmouseover="modificarDiv('enlace9');" onmouseout="revertDiv('enlace9');">
+                <a class="enlace" href="#">
+                    <div class="seleccion">                        
+                        <img src="imagenes/mejico.jpg">
+                        <div class="caption">
+                            <h2>M&eacute;jico</h2>
+                            <p>Excursiones por lugares hist&oacute;ricos de M&eacute;jico</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="divEnlace" id="enlace10" onmouseover="modificarDiv('enlace10');" onmouseout="revertDiv('enlace10');">
+                <a class="enlace" href="#">
+                    <div class="seleccion">                        
+                        <img src="imagenes/costa-rica.jpg">
+                        <div class="caption">
+                            <h2>Costa Rica</h2>
+                            <p>Descubr&iacute; los lugares m&aacute;s ex&oacute;ticos de Costa Rica</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="divEnlace" id="enlace11" onmouseover="modificarDiv('enlace11');" onmouseout="revertDiv('enlace11');">
+                <a class="enlace" href="#">
+                    <div class="seleccion">                        
+                        <img src="imagenes/cuba.jpg">
+                        <div class="caption">
+                            <h2>Cuba</h2>
+                            <p>Viaj&aacute; por Cuba</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="divEnlace" id="enlace12" onmouseover="modificarDiv('enlace12');" onmouseout="revertDiv('enlace12');">
+                <a class="enlace" href="#">
+                    <div class="seleccion">                        
+                        <img src="imagenes/alaska.jpg">
+                        <div class="caption">
+                            <h2>Alaska</h2>
+                            <p>Excursiones por los paisajes de Alaska</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="divEnlace" id="enlace13" onmouseover="modificarDiv('enlace13');" onmouseout="revertDiv('enlace13');">
+                <a class="enlace" href="#">
+                    <div class="seleccion">                        
+                        <img src="imagenes/nueva-zelanda.jpg">
+                        <div class="caption">
+                            <h2>Nueva Zelanda</h2>
+                            <p>Pocos destinos son tan deseados como Nueva Zelanda</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="divEnlace" id="enlace14" onmouseover="modificarDiv('enlace14');" onmouseout="revertDiv('enlace14');">
+                <a class="enlace" href="#">
+                    <div class="seleccion">                        
+                        <img src="imagenes/australia.jpg">
+                        <div class="caption">
+                            <h2>Australia</h2>
+                            <p>Visit&aacute; los lugares m&aacute;s espectaculares del pa&iacute;s oce&aacute;nico</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="divEnlace" id="enlace15" onmouseover="modificarDiv('enlace15');" onmouseout="revertDiv('enlace15');">
+                <a class="enlace" href="#">
+                    <div class="seleccion">                        
+                        <img src="imagenes/ushuaia.jpg">
+                        <div class="caption">
+                            <h2>Ushuaia</h2>
+                            <p>Conoc&eacute; los famosos paisajes del &quot;Fin del Mundo&quot;</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="divEnlace" id="enlace16" onmouseover="modificarDiv('enlace16');" onmouseout="revertDiv('enlace16');">
+                <a class="enlace" href="#">
+                    <div class="seleccion">                        
+                        <img src="imagenes/iguazu.jpg">
+                        <div class="caption">
+                            <h2>Cataratas del Iguaz&uacute;</h2>
+                            <p>Visit&aacute; una de las siete maravillas del mundo</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="divEnlace" id="enlace17" onmouseover="modificarDiv('enlace17');" onmouseout="revertDiv('enlace17');">
+                <a class="enlace" href="#">
+                    <div class="seleccion">                        
+                        <img src="imagenes/puerto-madryn.jpg">
+                        <div class="caption">
+                            <h2>Puerto Madryn</h2>
+                            <p>Excursiones por Puerto Madryn</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="divEnlace" id="enlace18" onmouseover="modificarDiv('enlace18');" onmouseout="revertDiv('enlace18');">
+                <a class="enlace" href="#">
+                    <div class="seleccion">                        
+                        <img src="imagenes/nortearg.jpg">
+                        <div class="caption">
+                            <h2>Norte argentino</h2>
+                            <p>Visit&aacute; el norte de nuestro pa&iacute;s</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div id="footDescripcion">
+                <h1 id="logo">Huinganco<span>Viajes</span></h1>
+                <p id="pFooter">Descubr&iacute; los lugares m&aacute;s fascinantes y ex&oacute;ticos tanto dentro de nuestro pa&iacute;s, como en cualquier otra parte del mundo.</p>
+            </div>
+            <div id="footContacto">
+                <h2>Contacto</h2>
+                <ul id="lisContacto">
+                    <li>Cel: 2994294857</li>
+                    <li>Oficina virtual</li>
+                    <li>huinganco.viajes@ggmail.com</li>
+                </ul>
+            </div>
+            <div id="lisSocial">
+                <h2>Redes sociales</h2>
+                <ul>
+                    <li><img src="imagenes/fb-small.png" width="22" height="22"><a href="https://www.facebook.com/"> Facebook </a></li>
+                    <li><img src="imagenes/ig-small.jpg" width="20" height="20"><a href="https://www.instagram.com/"> Instagram </a></li>
+                    <li><img src="imagenes/wapp-small.png" width="20" height="20"><a href="https://web.whatsapp.com/"> Whatsapp </a></li>
+                </ul>
+            </div>
+            <div id="subfooter">
+                <p>&copy;Todos los derechos reservados. <a href="#">OFICINA VIRTUAL</a> . Desarrollado por <a href="#">Emiliano Parrilla</a></p>
+            </div>            
+        </div>
+    </body>
+
+</html>
